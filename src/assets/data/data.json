@@ -1,5 +1,5 @@
 {
-  "Schedule": [
+  "schedule": [
     {
       "date": "2047-05-17",
       "groups": [
@@ -26,7 +26,7 @@
               "speakerNames": ["AUTO-TH"],
               "timeStart": "9:30 am",
               "timeEnd": "9:45 am",
-              "tracks": ["Thana"],
+              "tracks": ["Food"],
               "id": "2"
             },
             {
