@@ -33,11 +33,11 @@ export class AccountPage implements AfterViewInit {
   // clicking Cancel will close the alert and do nothing
   async changeUsername() {
     const alert = await this.alertCtrl.create({
-      header: 'Change Username',
+      header: 'Username',
       buttons: [
-        'Cancel',
+        'ยกเลิก',
         {
-          text: 'Ok',
+          text: 'ยืนยัน',
           handler: (data: any) => {
             this.userData.setUsername(data.username);
             this.getUsername();
